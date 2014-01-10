@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Faithbook Prototype</title>
+<title>Oops!!!</title>
 </head>
 <body>
-	<h1>${message}</h1>
-	<h2>User : ${username}</h2>
+	<h1>Looks like you been led astray....</h1>
+	<a href="welcome">Go Home?</a>
 </body>
 </html>
