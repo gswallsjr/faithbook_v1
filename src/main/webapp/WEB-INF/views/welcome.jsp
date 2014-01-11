@@ -10,6 +10,7 @@
 	<h1>${message}</h1>
 	<h2>User : ${username}</h2>
 	
+	
 	<a href="/j_spring_security_logout"> Logout</a>
 </body>
 </html>
