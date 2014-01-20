@@ -11,10 +11,11 @@
 			authentication-failure-url="/public/loginfailed" />
 		<logout logout-url="/logout" invalidate-session="true" logout-success-url="/public/login" />
 		
+		<intercept-url pattern="/" access="permitAll" />
 		<intercept-url pattern="/public/**" access="permitAll" />
 		<intercept-url pattern="/secured/**" access="fullyAuthenticated" />
 		<intercept-url pattern="/admin/**" access="authenticated and hasRole('ADMINISTRATOR')" />
-		<intercept-url pattern="/" access="denyAll" />
+		<intercept-url pattern="/**" access="denyAll" />
 		
 	</http>
  
