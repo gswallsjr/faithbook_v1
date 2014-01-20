@@ -11,6 +11,6 @@
 	<h2>User : ${username}</h2>
 	
 	
-	<a href="/public/j_spring_security_logout"> Logout</a>
+	<a href="/logout"> Logout</a>
 </body>
 </html>
