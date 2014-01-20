@@ -8,6 +8,6 @@
 </head>
 <body>
 	<h1>Looks like you been led astray....</h1>
-	<a href="/">Go Home?</a>
+	<a href="/public/">Go Home?</a>
 </body>
 </html>
